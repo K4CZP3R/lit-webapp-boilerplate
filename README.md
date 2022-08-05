@@ -4,7 +4,7 @@
 
 Frontend based on webcomponents boilerplate used by me, it contains the following functionality:
 
-**Redux** / **Router** / **Docker** / **TypeScript**
+**Redux** / **Router** / **Docker** / **TypeScript** / **Rollup dev&prod**
 
 </div>
 
