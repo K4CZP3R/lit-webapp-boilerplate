@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>kacperserewis.net</title>
+  <meta name="description" content="Main page" />
+  <meta name="og:title" property="og:title" content="…">
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="./node_modules/lit/polyfill-support.js"></script>
+  <script type="module" src="./out/app-element.js"></script>
+  <style>
+    :root {
+      --primary-color: #388087;
+      --secondary-color: #6fb3b8;
+      --primary-color-light: #badfe7;
+      --secondary-color-light: #c2edce;
+      --background-color: #f6f6f2;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    window.process = {
+      env: {
+        NODE_ENV: 'production'
+      }
+    };
+  </script>
+
+
+  <app-element></app-element>
+</body>
+
+</html>
