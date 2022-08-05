@@ -21,3 +21,7 @@ Frontend based on webcomponents boilerplate used by me, it contains the followin
 ## Deployment
 
 1. Build dockerfile
+
+## TODO
+
+- [ ] Add entrypoint to make env changeable after build
