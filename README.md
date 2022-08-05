@@ -21,7 +21,3 @@ Frontend based on webcomponents boilerplate used by me, it contains the followin
 ## Deployment
 
 1. Build dockerfile
-
-## Branches
-
-- `main`: Main branch contains register/login and session verify logic (best as auth microservice)
