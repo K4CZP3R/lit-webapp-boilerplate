@@ -3,14 +3,15 @@ FROM node:16-alpine AS build
 
 WORKDIR /usr/src
 
-COPY ./package.json ./
-COPY ./package-lock.json ./
-COPY ./rollup.config.js ./
-COPY ./src ./
-COPY ./tsconfig.json ./
+COPY ./package.json .
+COPY ./package-lock.json .
+COPY ./rollup.config.js .
+COPY ./src ./src
+COPY ./tsconfig.json .
+COPY ./index.html .
 
 
-RUN npm ci --no-audit
+RUN npm ci --prefer-offline --no-audit
 RUN npm run build
 RUN npm run deploy
 
