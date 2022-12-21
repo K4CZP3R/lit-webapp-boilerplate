@@ -1,0 +1,66 @@
+// @import "./reset";
+
+.main-text {
+    font-size: var(--sl-font-size-3x-large);
+    font-weight: var(--sl-font-weight-semibold);
+  }
+  
+  .sub-text {
+    font-size: var(--sl-font-size-large);
+    font-weight: var(--sl-font-weight-semibold);
+  } 
+  
+  .text {
+    font-size: var(--sl-font-size-medium);
+    font-weight: var(--sl-font-weight-normal);
+  }
+  
+  .text-semi-bold {
+    font-weight: var(--sl-font-weight-semibold);
+  }
+
+  .gap-20 {
+    gap: 20px;
+  }
+
+  :host .darkMode {
+    --button-bg: #6c5b7b;
+    --button-fg: #f67280;
+
+    --card-bg: #355c7d;
+    --card-fg: #f67280;
+
+    --text-color: #f67280;
+    --background-color: #355c7d;
+
+    --icon-color: #f67280;
+  }
+
+  :host .lightMode {
+    --button-bg: #f3d7ca;
+    --button-fg: #c86b85;
+
+    --card-bg: #f5eee6;
+    --card-fg: #c86b85;
+
+    --text-color: #c86b85;
+    --background-color: #f5eee6;
+
+    --icon-color: #c86b85;
+  }
+
+  :host .deviceMode {
+    --button-bg: #222222;
+    --button-fg: #f67280;
+
+    --card-bg: #000000;
+    --card-fg: #f67280;
+
+    --text-color: #f67280;
+    --background-color: #000000;
+
+    --icon-color: #f67280;
+  }
+  :host {
+    font-family: var(--sl-font-sans)
+} 

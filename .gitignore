@@ -2,3 +2,8 @@ node_modules
 build
 dev-build
 out
+docker-output
+stats.json
+.env
+*.key
+appimage-output

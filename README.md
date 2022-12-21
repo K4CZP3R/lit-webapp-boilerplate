@@ -4,14 +4,14 @@
 
 Frontend based on webcomponents boilerplate used by me, it contains the following functionality:
 
-**Redux** / **Router** / **Docker** / **TypeScript** / **Rollup dev&prod**
+**Redux** / **Router** / **Docker** / **TypeScript** / **Webpack**
 
 </div>
 
 ## Getting started
 
-* `index.html` should contain: global css + main lit element (`app-element`) + environment variables.
-    * Inside `app-element` you are free to define and/or import more lit elements.
+- `index.html` should contain: global css + main lit element (`app-element`) + environment variables.
+  - Inside `app-element` you are free to define and/or import more lit elements.
 
 ## Development
 
